@@ -17,8 +17,6 @@
     "deploy": "gh-pages -d build"
   },
   "devDependencies": {
-    "eslint-config-prettier": "^2.9.0",
-    "eslint-plugin-prettier": "^2.6.0",
     "gh-pages": "^1.2.0",
     "prettier": "^1.13.5"
   }
