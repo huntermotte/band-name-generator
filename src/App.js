@@ -6,7 +6,7 @@ import './App.css';
 
 
 const generatebandName = () => {
-  const hipsterBandNames = ['Aunt Jemima\'s Wife', 'The Icicles', 'Indigo Fetus', 'Turtle Pancakes', 'Cold Brü', '[Lead Singer Name] and the Pocket Squares', 'Megapixel Mondays', 'The Budapest Banjos', 'Moustache Wax', 'Don\'t Touch My Baguette'];
+  const hipsterBandNames = ['Aunt Jemima\'s Wife', 'The Icicles', 'Indigo Fetus', 'Turtle Pancakes', 'Cold Brü', 'The Fractures', '[Lead Singer Name] and the Pocket Squares', 'Megapixel Mondays', 'The Budapest Banjos', 'Moustache Wax', 'Don\'t Touch My Baguette'];
   let randomIndex = Math.floor(Math.random() * hipsterBandNames.length);
   let bandName = hipsterBandNames[randomIndex];
   return bandName
@@ -28,7 +28,7 @@ class App extends Component {
         <h1 className='bandHeader'>
         {newBandName}
         </h1>
-        <button onClick={(event) => {
+        <button className="btn btn-danger" onClick={(event) => {
           event.preventDefault();
           newBandName = generatebandName();
           let headerElement = document.getElementsByClassName('bandHeader')
@@ -43,8 +43,8 @@ class App extends Component {
             If this generator found your band&#39;s name or gave you a good laugh, consider donating:
           </footer>
           <a href="https://paypal.me/huntermotte" target="_blank">
-            <button>
-              Help fund more band names
+            <button className="btn btn-primary">
+              Help fund more hipster band names
             </button>
           </a>
         </div>
