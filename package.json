@@ -2,7 +2,7 @@
   "name": "band-name-generator",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://huntermotte.github.io/band-name-generator",
+  "homepage": ".",
   "dependencies": {
     "react": "^16.4.0",
     "react-dom": "^16.4.0",
