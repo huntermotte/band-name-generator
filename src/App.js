@@ -6,7 +6,7 @@ import './App.css';
 
 
 const generatebandName = () => {
-  const hipsterBandNames = ['Aunt Jemima\'s Wife', 'The Icicles', 'Indigo Fetus', 'Cold Brü', 'The Jersey Turnpike Drifters', 'Eggplant Submarines', 'The Callback Functions', 'Confident Chub', 'Peanut Butter and Gypsy Sandwich', 'Not My Artifical Meat', 'The Fractures', '[Lead Singer Name] and the Pocket Squares', 'Megapixel Mondays', 'The Budapest Banjos', 'Moustache Wax', 'Don\'t Touch My Baguette'];
+  const hipsterBandNames = ['Aunt Jemima\'s Wife', 'The Icicles', 'diktat', 'Indigo Fetus', 'Cold Brü', 'The Jersey Turnpike Drifters', 'Eggplant Submarines', 'The Callback Functions', 'Confident Chub', 'Peanut Butter and Gypsy Sandwich', 'Not My Artifical Meat', 'The Fractures', '[Lead Singer Name] and the Pocket Squares', 'Megapixel Mondays', 'The Budapest Banjos', 'Moustache Wax', 'Don\'t Touch My Baguette'];
   let randomIndex = Math.floor(Math.random() * hipsterBandNames.length);
   let bandName = hipsterBandNames[randomIndex];
   return bandName
