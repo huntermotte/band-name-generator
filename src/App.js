@@ -6,6 +6,7 @@ const generatebandName = () => {
   const hipsterBandNames = [
     "Aunt Jemima's Wife",
     "The Icicles",
+    "diktat",
     "Indigo Fetus",
     "Cold Brü",
     "The Jersey Turnpike Drifters",
