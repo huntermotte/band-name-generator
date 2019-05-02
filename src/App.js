@@ -24,6 +24,7 @@ const generatebandName = () => {
     'Megapixel Mondays',
     'The Budapest Banjos',
     'Moustache Wax',
+    'The Wasteoids',
     'Tzatziki Sunrise',
     'Don\'t Touch My Baguette'
   ];
